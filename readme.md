@@ -1,0 +1,2 @@
+En esta nueva práctica hemos creado un sitio con Bootstrap,sass y parcel.
+La páguina cuenta con un header y un footer y tambien un formulario, el cual cuenta un un sistema de validación; cuando el usuario deja alguno de los apartados sin completar, o queda mal cubierto, como por ejemplo en el caso del correo electronico si faltara un simbolo de "@", este hace ver un mensaje indicando que el campo esta mal cubierto o por cubrir.
