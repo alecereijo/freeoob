@@ -40,39 +40,39 @@
 
     <br><br> <br><br> <br>
     <div class="container">
-    <form class="row g-3"   action = "login_basico.php" method = "POST">
+    <form class="row g-3"   action ="login_basico.php" method ="POST">
 
         <div class="col-md-4">
           <label for="validationDefault01" class="form-label">Nombre</label>
-          <input type="text" class="form-control" id="validationDefault01" value="Mark" required>
+          <input type="text" name="nome" class="form-control" id="validationDefault01" value="Mark" required>
         </div>
         <div class="col-md-4">
           <label for="validationDefault02" class="form-label">Apellido</label>
-          <input type="text" class="form-control" id="validationDefault02" value="Otto" required>
+          <input type="text" name="apelido"  class="form-control" id="validationDefault02" value="Otto" required>
         </div>
         <div class="col-md-4">
-          <label for="validationDefaultUsername" class="form-label">Usuario</label>
+          <label for="validationDefaultUsername" class="form-label">Correo</label>
           <div class="input-group">
             <span class="input-group-text" id="inputGroupPrepend2">@</span>
-            <input type="text" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
+            <input type="text"  name="correo" class="form-control" id="validationDefaultUsername"  aria-describedby="inputGroupPrepend2" required>
           </div>
         </div>
         <div class="col-md-6">
-          <label for="validationDefault03" class="form-label">Ciudad</label>
-          <input type="text" class="form-control" id="validationDefault03" required>
+          <label for="validationDefault03" class="form-label">Provincia</label>
+          <input type="text" name="provincia"  class="form-control" id="validationDefault03" required>
         </div>
         <div class="col-md-3">
-          <label for="validationDefault04" class="form-label">Pais</label>
-          <select class="form-select" id="validationDefault04" required>
+          <label for="validationDefault04" class="form-label">Localidade</label>
+          <select name="localidade" class="form-select" id="validationDefault04" required>
             <option selected disabled value="">Elegir</option>
-            <option>Alemania</option>
-            <option>España</option>
-            <option>Italia</option>
+            <option>Vigo</option>
+            <option>Tui</option>
+            <option>Nigrán</option>
           </select>
         </div>
         <div class="col-md-3">
           <label for="validationDefault05" class="form-label">CD</label>
-          <input type="text" class="form-control" id="validationDefault05" required>
+          <input type="text" name="postal"  class="form-control" id="validationDefault05" required>
         </div>
         <div class="col-12">
           <div class="form-check">
