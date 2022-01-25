@@ -1,0 +1,1 @@
+{"version":3,"sources":["..\\scss\\style.scss"],"names":[],"mappings":"AAKA,KACI","file":"style.98a88ad5.css","sourceRoot":"..\\src","sourcesContent":["@import \"../node_modules/bootstrap/scss/functions\";\r\n@import \"../node_modules/bootstrap/scss/variables\";\r\n@import \"../node_modules/bootstrap/scss/mixins\";\r\n\r\n\r\nform{\r\n    padding: 20px;\r\n}"]}
